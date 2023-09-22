@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+* {
+  font-family: 'PT Serif', serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eeefeb;
+  color: #000000;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 192px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header #logo {
+  font-weight: 700;
+}
+
+#hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1rem;
+  background-image:  linear-gradient(rgba(133, 127, 116, 0.5), rgba(0, 0, 0, 0.5)), url('./hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  color: white;
+}
+
+#contentBody {
+  padding: 2rem;
+}
