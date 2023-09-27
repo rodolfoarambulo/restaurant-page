@@ -4,6 +4,6 @@ import createHeader from './header.js';
 import './style.css';
 
 createHeader();
-//createHome();
+// createHome();
 createMenu();
 console.log('Hello from index.js!');

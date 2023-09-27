@@ -30,7 +30,7 @@ const createMenu = () => {
   const menu = document.createElement('div');
   menu.id = 'menu';
 
-  const menuHeader = document.createElement('div');
+  const menuHeader = document.createElement('h1');
   menuHeader.id = 'menuHeader';
   menuHeader.textContent = 'Menu';
 
