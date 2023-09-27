@@ -51,3 +51,29 @@ header #logo {
 #contentBody {
   padding: 2rem;
 }
+
+#menuHeader {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#menu img {
+  height: 30vh;
+  border-radius: 50%;
+}
+
+#foodItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

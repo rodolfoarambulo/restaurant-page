@@ -2,7 +2,7 @@ const createHeader = () => {
   const header = document.createElement('header');
 
   const logo = document.createElement('div');
-  logo.id = 'logo'
+  logo.id = 'logo';
   logo.textContent = 'Très Bien';
 
   const list = document.createElement('ul');
@@ -15,7 +15,7 @@ const createHeader = () => {
   menu.textContent = 'Menu';
 
   const contact = document.createElement('li');
-  contact.id = 'contact'
+  contact.id = 'contact';
   contact.textContent = 'Contact';
 
   header.appendChild(logo);
